@@ -7,3 +7,4 @@
 2. [A simple manifest with basic VM options](/002_basic_config)
    defines such options as `cpu`, `mem`, and `disk`.
 3. [Multiple machines without any configuration](/003_basic_multimachine).
+4. [Multiple machines with basic configuration](/004_basic_multimachine_config).

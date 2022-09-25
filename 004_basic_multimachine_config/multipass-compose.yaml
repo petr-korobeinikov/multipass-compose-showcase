@@ -1,0 +1,16 @@
+services:
+  web-server:
+    image: focal
+    cpus: 2 # Number of CPUs to allocate.
+    mem: 2G # Amount of memory to allocate. Positive integers, in bytes, or with K, M, G suffix.
+    disk: 5G # Disk space to allocate. Positive integers, in bytes, or with K, M, G suffix.
+  database:
+    image: focal
+    cpus: 4
+    mem: 8G
+    disk: 25G
+  backend:
+    image: focal
+    cpus: 4
+    mem: 4G
+    disk: 10G
