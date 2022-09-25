@@ -1,0 +1,10 @@
+services:
+  web-server:
+    image: focal
+    cloud-init: cloud-init/web-server/config.yaml
+  database:
+    image: focal
+    cloud-init: cloud-init/database/config.yaml
+  backend:
+    image: focal
+    cloud-init: cloud-init/backend/config.yaml
