@@ -8,3 +8,5 @@
    defines such options as `cpu`, `mem`, and `disk`.
 3. [Multiple machines without any configuration](/003_basic_multimachine).
 4. [Multiple machines with basic configuration](/004_basic_multimachine_config).
+5. [Basic cloud-init example](/005_basic_cloud_init).
+6. [Basic multimachine with cloud-init](/006_basic_multimachine_cloud_init).
