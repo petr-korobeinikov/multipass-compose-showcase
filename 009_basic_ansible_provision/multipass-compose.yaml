@@ -1,0 +1,4 @@
+services:
+  instance-1:
+    image: focal
+    cloud-init: cloud-init.yaml

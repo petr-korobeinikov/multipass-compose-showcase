@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  become_user: root
+  any_errors_fatal: true
+
+  tasks:
+    - name: show welcome message
+      ansible.builtin.debug:
+        msg: ansible + multipass-compose == ❤️
