@@ -11,3 +11,4 @@
 5. [Basic cloud-init example](/005_basic_cloud_init).
 6. [Basic multimachine with cloud-init](/006_basic_multimachine_cloud_init).
 7. [Basic ssh password auth](/007_basic_cloud_init_ssh_password).
+8. [Basic ssh key auth](/008_basic_cloud_init_ssh_key).
